@@ -13,6 +13,8 @@ function HomePage(props) {
   );
 }
 
+// how to use getStaticProps here
+
 export async function getStaticProps() {
   console.log("(Re-)Generating...");
   const filePath = path.join(process.cwd(), "data", "dummy-backend.json");
