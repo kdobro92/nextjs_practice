@@ -13,7 +13,7 @@ function HomePage(props) {
   );
 }
 
-// how to use getStaticProps here hard
+// how to use getStaticProps
 
 export async function getStaticProps() {
   console.log("(Re-)Generating...");
