@@ -5,6 +5,7 @@ function UserIdPage(props) {
 export default UserIdPage;
 
 // add getserversideprops
+// add getserversideprops
 
 export async function getServerSideProps(context) {
   const { params } = context;
